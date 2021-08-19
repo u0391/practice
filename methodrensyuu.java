@@ -13,7 +13,7 @@ public class methodrensyuu {
 	
 	public static void methodB() {
 		
-		System.out.println("methodC");
+		System.out.println("methocccd");
 	}
 	
 	public static void main(String[] args) {
