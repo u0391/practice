@@ -18,7 +18,23 @@ public class asters {
 //		}
 //		
 //		
+		
+		
 //		
+		
+		
+//		Long c= 6L;
+//		
+//		
+//		Integer f = 3;
+
+		
+	
+		
+		
+		
+		
+		
 		System.out.println("*******");
 		return "*******";
 	}
