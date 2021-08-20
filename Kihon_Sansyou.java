@@ -14,8 +14,7 @@ public class Kihon_Sansyou {
 		
 		System.out.println(a);
 		
-		
-		
+	
 		
 		int b= 3;
 		
@@ -26,10 +25,7 @@ public class Kihon_Sansyou {
 		bb=8;
 		
 		System.out.println(b);
-		
-		
 				
-		
 		
 		int [] arrayA = {30,25,90};
 		
@@ -40,7 +36,7 @@ public class Kihon_Sansyou {
 		arrayA = arrayC;
 		
 		arrayB[0]=100;
-		arrayA[0] = 200;
+		arrayA[0] =200;
 		
 		System.out.println(arrayA[0]);		//20
 		System.out.println(arrayB[0]);		//100

@@ -4,20 +4,16 @@ public class Kurikaeshi {
 
 	public static void main(String[] args) {
 
-		int a =8;
-		
-		if(a==10) {
-		
-		for (int b =1; b<=10; b++) {
-			a=a+5;
-			
+	int i =1;
+	
+	while(i<=100) {
+		if(i%10==0) {
+			System.out.println(i+"です。キリのいい数字です。");
+		}else {
+			System.out.println(i+"です。");
 		}
-		
-		System.out.println(a);
-		
-		
-		}
+		i++;
 	}
 		
-
+	}
 }
