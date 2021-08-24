@@ -12,6 +12,18 @@ public class Practice4_3 {
 		
 		System.out.println(scores[3]);
 
+	
+		
+		
+
+	
 	}
 
+	
+	
+	
+	
 }
+
+
+//
