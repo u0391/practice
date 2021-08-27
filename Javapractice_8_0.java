@@ -2,17 +2,17 @@ package rensyuuproject;
 
 public class Javapractice_8_0 {
 		
-		String serialNumber;
+		private String serialNumber;
 		
-		int height;
+		private int height;
 		
-		int wight;
+		private int wight;
 		
-		int weight;
+		private int weight;
 		
-		String product;
+		private String product;
 		
-		int capacity;
+		private int capacity;
 		
 		void show() {
 			
