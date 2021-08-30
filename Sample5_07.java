@@ -3,25 +3,20 @@ package rensyuuproject;
 public class Sample5_07 {
 
 	public static void main(String[] args) {
-
-		int tyuukan;
 		
-		int kimatu;
+		int tyuukan = 80;
 		
-		tyuukan=90;
+		int kimatu = 80;
 		
-		kimatu= 80;
-		
-		if(tyuukan>=70 && kimatu>=70) {
+		if(tyuukan>70 && kimatu>70) {
 			
-			System.out.println("成績5");
-					
-		}else if ((tyuukan<50 && kimatu>= 70)||(tyuukan>=70 && kimatu>=50 && kimatu <70)){
-			System.out.println("成績4");
+			System.out.println("評価５");
 			
+		}else if(tyuukan>70 && kimatu>50 && kimatu<70) {
+			
+			System.out.println("評価4");
 		}
-		
-	
+
 	
 	}
 

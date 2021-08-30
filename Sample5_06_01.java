@@ -1,40 +1,39 @@
 package rensyuuproject;
 
-public class Sample5_06_02 {
+public class Sample5_06_01 {
 
 	public static void main(String[] args) {
 
-		int yachin = 55000;
 		
-		int hirosa = 10;
 		
-		switch(hirosa) {
+		int hirosa = 9;
 		
-		case 10:
+		if( hirosa ==10 ) {
 			
 			System.out.println("家賃が60000円以上になります");
-			break;
 			
-		case 9:
+		}else if(hirosa == 9) {
 			
 			System.out.println("家賃が55000円以上になります");
-			break;
 			
-		case 8:
+		}else if(hirosa == 8) {
 			
 			System.out.println("家賃が50000円以上になります");
-			break;
 			
-		case 7:
+		}else if(hirosa ==7) {
 			
 			System.out.println("家賃が45000円以上になります");
-			break;
 			
-		default:
+		}else if(hirosa == 6) {
+			
+			System.out.println("家賃が40000円以上になります");
+		
+		}else {
 			
 			System.out.println("一度ご相談ください");
 		}
-				
+		
+
 	}
 
 }
