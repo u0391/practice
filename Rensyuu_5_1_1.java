@@ -12,54 +12,20 @@ public class Rensyuu_5_1_1 {
 		
 		String xx= b.readLine();
 		
-		String yy= b.readLine();
+		String yy = b.readLine();
 		
-		String zz= b.readLine();
-		
-		
+						
 		int x=Integer.parseInt(xx);
 		
 		int y=Integer.parseInt(yy);
 		
-		int z=Integer.parseInt(zz);
-		
-		System.out.println("ケース１");
-
-		if(x>=60) {
-			System.out.println("合格");
-		}else {
-			System.out.println("不合格");
+		if (x<y && x%2==0 && y%2==0) {
+			
+			System.out.println("xはyより小さく、かつ、xとyは共に偶数である");
 		}
-		
-		System.out.println("ケース２");
-		
-		if(y>=80) {
-			System.out.println("たいへんよくできました");
-		
-		}else if(y>=60 && y<80) {
-			System.out.println("よくできました");
-		
-		}else if(y<60) {
-			System.out.println("残念でした");
-		}
-		
-		System.out.println("ケース３");	
-			
-		if(z>=80) {
-			System.out.println("優");
-			
-		}else if(z>=70 && z<80) {
-			System.out.println("良");
-			
-		}else if(z>=60 && z<70) {
-			System.out.println("可");
-			
-		}else if(z<60) {
-			System.out.println("不可");
-		}
-		
 		
 
 	}
 
 }
+	
