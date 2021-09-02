@@ -4,17 +4,20 @@ public class Java_Practice4_2 {
 
 	public static void main(String[] args) {
 
-		int [] moneyList = {121902,8302,55100};
+		int [] numbers = {3,4,9};
 		
-//		for(int i =0; i<moneyList.length; i++) {
-//			
-//			System.out.println(moneyList[i]);
-//		}
+		System.out.println("１桁の数字を入力してください");
 		
-		for(int value : moneyList) {
+		int input = new java.util.Scanner(System.in).nextInt();
+		
+		for(int i=0; i<numbers.length; i++) {
 			
-			System.out.println(value);
+			if(input == numbers[i]) {
+				System.out.println("あたり！");
+			}
 		}
+		
+		
 		
 			
 
