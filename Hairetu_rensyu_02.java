@@ -15,8 +15,7 @@ public class Hairetu_rensyu_02 {
 		for(int j =0; j<=multi.length; j++) {
 			
 			System.out.println(j*2);
-			
-			
+						
 			}
 		
 		}
