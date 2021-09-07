@@ -43,8 +43,7 @@ public class GetterAndSetter {
 		        // 100
 		        
 		        System.out.println("aaaaaa");
-		             
-		        
+		             		        
 		    }
 	}
 }

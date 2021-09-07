@@ -20,8 +20,7 @@ public class Hairetu_rensyu_02 {
 		
 		}
 		
-		}
+	}
 
 	
-
 }

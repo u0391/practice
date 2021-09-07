@@ -11,7 +11,7 @@ public class RandomDemo {
 		
 	    Random r = new Random();
 	    
-	    for(int i=0 ; i< ; i++) {
+	    for(int i=0 ; i<3 ; i++) {
 	    	
 	    	
 	    	String hand = hands[r.nextInt(3)];
