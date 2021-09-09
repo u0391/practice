@@ -4,40 +4,20 @@ public class asters {
 
 	public static String aster(int a) {
 		
-//		int i;
-//		
-//		String u ="*";
-//		
-//		
-//		
-//		for( i = 0; i<=a; i++) {
-//		
-//			System.out.println(i*u);
-//			
-//		
-//		}
-//		
-//		
+		String [] nagasa = {"*******"};
 		
 		
-//		
 		
 		
-//		Long c= 6L;
-//		
-//		
-//		Integer f = 3;
+		int nana = nagasa.length;
+		
+		
+		
+		return nana;
 
-		
+		}
 	
-		
-		
-		
-		
-		
-		System.out.println("*******");
-		return "*******";
-	}
+	public static void main(String[] args) {
 
-	
+	asters
 }

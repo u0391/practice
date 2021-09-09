@@ -3,17 +3,24 @@ package rensyuuproject;
 public class Hairetu_rensyuu {
 
 	public static void main(String[] args) {
-
-		int x[][] = new int [3][6];
+		
+		int[][] a = {{0,1,2,},{10,11,12}};
+		
+		String[][] s = {
+				
+			{"apple","orange","banana","pineapple"},
+				
+			{"cat","dog","bird", "fish"},
+				
+		};
+		
+		System.out.println("a[1][2]:" + a[1][2]);
+		
+		System.out.println(s[1][3]);
+		
 		
 
-		for(int i=0; i<3; i++) {
-			
-			for(int j=0; j<6; j++) {
-				
-				System.out.println(x[i][j]);
-			}
-		}
+		
 	}
 
 }

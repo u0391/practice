@@ -18,13 +18,12 @@ public class JavaPractice_5_14 {
 	
 	public static void main(String[] args) {
 
-		int[] array = makeArray(7);
+		int[] array = makeArray(5);
 		
 		for(int i : array) {
 			
 			System.out.println(i);
 		}
-
 
 	}
 
