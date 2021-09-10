@@ -10,7 +10,6 @@ public class Chinchiro {
 		
 		Random sai = new Random();
 		
-//		for(int i =0; i<2; i++) {
 			
 			
 			int kaisuu =saikoro[sai.nextInt(1)];
