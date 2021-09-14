@@ -2,31 +2,36 @@
 	
 	public class Car {
 
-		public void accele() {
+		private int fuel = 0;  //燃料
+		
+		private int migration =0;
+		
+		public Car() {
 			
-			System.out.println("発進します");
+			System.out.println("Carオブジェクト生成");
+		}
+		// 移動メソッド
+		
+		public void move() {
+			
+			//燃料があるなら移動
+			
+			if(fuel >=0) {
+				migration++;	//距離移動
+				fuel--;			//燃料消費
+			}
+			System.out.println("移動距離 :"+migration);
+			
+			System.out.println("燃料 :"+fuel);
 		}
 		
-		public void brake() {
+		// 燃料補給メソッド
+		public void supply(int fuel) {
 			
-			System.out.println("停止します");
-		}
-	}
-	
-	class Soarer extends Car{
-		
-		boolean roofOpenFlag = false;
-		
-		public int speed =5;
-		
-		public void openRoof() {
-			
-			roofOpenFlag = true;
-		}
-		
-		public void closeRoof() {
-			
-			roofOpenFlag = true;
+			if(fuel >0) {
+				this.fuel += fuel; //燃料補給
+			}
+			System.out.println("燃料 :"+fuel);
 		}
 		
 	}
