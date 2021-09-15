@@ -4,47 +4,44 @@ public class Java4_12 {
 
 	public static void main(String[] args) {
 
-		int[] seq = new int [10];
+		int [] seq = new int [10];
 		
-		
-		
-		for(int i = 0; i<seq.length; i++) {
-			
-			seq[i] = new java.util.Random().nextInt(4);
-			
-			
-		}
+		//塩基配列をランダムに生成
 		
 		for(int i =0; i<seq.length; i++) {
 			
-			switch(seq[i]) {
+			seq[i] = new java.util.Random().nextInt(4);
+		}
+		
+		//生成した塩基配列の記号の表示
+		
+		for(int i = 0; i<seq.length; i++) {
+			
+			switch (seq[i]) {
 			
 			case 0:
 				
 				System.out.println("A");
 				
-				break;
-				
-			
+				break;				
 			case 1:
 				
-				System.out.println("B");
+				System.out.println("T");
 				
 				break;
-
 			case 2:
+				
+				System.out.println("G");
+				
+				break;
+				
+			case 3:
 				
 				System.out.println("C");
 				
-				break;
-
-			case 3:
+				break; 
 				
-				System.out.println("D");
 				
-				break;
-					
-			
 			}
 		}
 
