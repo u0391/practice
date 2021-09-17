@@ -15,12 +15,25 @@ public class Javatext16_1 {
 		
 		points.add(75);
 		
-		for(int i = 0; i<=points.size(); i++) {
-			
-			
-			System.out.println(points[i]);
+		points.add(90);
 		
-			System.out.println();
+		points.add(30);
+		
+		points.add(60);
+		
+		for(int i = 0; i<points.size(); i++) {
+			
+			
+			System.out.println(points.get(i));	
+			
 		}
+		
+		System.out.println(points.get(3));
+		
+		System.out.println(points.get(5));
+		
+		
+		
+		
 	}
 }

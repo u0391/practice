@@ -17,6 +17,8 @@ public class Sample15 {
 			
 			System.out.println(ans);
 			
+			ousennsyougunn
+			
 		}
 		
 		catch(ArrayIndexOutOfBoundsException e) {
@@ -25,9 +27,10 @@ public class Sample15 {
 		
 		}
 			catch(NumberFormatException e) {
-			}		
+					
 				System.out.println("2つの整数を入力してください");
-				
+			}
+		
 			catch(ArithmeticException e){
 			
 				System.out.println("ゼロ除算が行われました");
